@@ -7,8 +7,12 @@ gem 'rails', '3.2.16'
 
 gem 'sqlite3'
 
+#thoughtbot gem for easier handling of static pages
+gem 'high_voltage'
+
 group :test, :development do
   gem 'rspec-rails'
+  gem 'capybara'
 end
 
 # Gems used only for assets and not required
